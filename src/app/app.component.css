@@ -1,0 +1,114 @@
+.contact{
+    background-color: #39a4c4;
+    padding: 5px;
+    
+}
+.img{
+    width: 40px;
+    height:40px;
+}
+li:hover{
+    scale: 1.2;
+    background-color:rgba(247, 242, 242, 0.1);
+    border-radius: 10px;
+    transition: 0.45s;
+}
+button:hover{
+    scale: 1.1;
+    transition: 0.45s;
+}
+input:hover{
+    scale: 1.05;
+    transition: 0.45s;
+}
+h4{
+    margin-left: 15px;
+}
+li{
+    list-style: none;
+}
+body{
+    background-color:#4b5092;
+    margin-right: 10px;
+    border-radius: 10px;
+    height: 580px;
+    margin-left: 0;
+    background-image: url(../assets/img/fond_Connexion.jpg);
+    background-size: cover;
+}
+nav {
+    display: flex;
+    justify-content:flex-end;
+}
+.nav-bar{
+    width:300px;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: aliceblue;
+    align-items: center;
+}
+.form-container{
+    background-color: rgba(248, 244, 244, 0.25);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    border-radius: 40px; 
+    margin-left: 70px;   
+    margin-top: 60px;  
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4);
+    border-color: aliceblue;
+}
+h1{
+    color: aliceblue;
+}
+.form-container input ,.form-container h1,.form-container button{
+    margin-top: 20px;
+    margin-left: 25px;
+    color: aliceblue;
+}
+.text_zone{
+    background-color: rgba(13, 9, 27, 0.4);
+    border: none;
+    width: 100%;
+    height: 22px;
+}
+::-ms-reveal{
+    filter:invert(100%);
+}
+::placeholder{
+    color: rgba(235, 229, 229, 0.9)
+}
+button[type="button_zone"]{
+    background-color: rgba(7, 4, 17, 0.6);
+    padding: 5px;
+    border:none;
+    width: 85%;
+    text-align: center;
+}
+main{
+    display:flex;
+    align-items: center;
+}
+button[type="password-button"]{
+    background-color: rgba(248, 244, 244, 0.1);
+    color:aliceblue;
+    border-color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    border-width: 0.3px;
+}
+button[type="submit"]{
+    background-color: #254069;
+    color:rgb(249, 250, 252);
+    border:none;
+    padding: 7px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
